@@ -1,0 +1,42 @@
+html{
+        text-align: center;
+}
+body{
+    background-color: wheat;
+}
+h1{
+    color: rgb(60, 51, 39);
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: wheat;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+p{
+    color: rgb(205, 180, 134);
+    margin-top:0px;
+    font-weight: bold;
+}
+ul{
+    text-align: center;
+    width:100%;
+    background-color: black;
+    margin-bottom: 40px;
+}
+li{
+    list-style: none;
+}
+
+.spotify{
+    color: white;
+    font-size:17px;
+    margin-bottom: 40px;
+}
+a{
+    color: yellow;
+}
+

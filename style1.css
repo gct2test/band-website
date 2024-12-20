@@ -1,0 +1,128 @@
+html {
+    text-align: center;
+}
+
+body { background: black; }
+.album body { background: wheat; }
+.album.error body { background: hsl(190, 50%, 60%); }
+
+.home h1 {
+    color: wheat;
+    font-size: 200px;
+    font-family:serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.album h1 {
+    color: rgb(60, 51, 39);
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    color:white;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', sans-serif;
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+    font-family: serif;
+}
+
+div {
+    box-shadow: border-box;
+    margin-bottom: 20px;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    list-style: none;
+}
+
+.album-overview {
+    background-color: wheat;
+    padding-block: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.album-overview a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    transition: all 1.5s ease;
+}
+
+.album-overview a:hover {
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: wheat;
+    padding: 40px;
+    margin: 0 auto;    
+}
+
+p {
+    color:black;
+    font-size: 15px;
+}
+
+a {
+    color: black;
+}
+
+.Quellen {
+    text-align: left;
+    color: rgb(189, 183, 168);
+}
+
+
+.album h2 {
+    text-align: center;
+    color: wheat;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.album p,
+.album li {
+    color: rgb(205, 180, 134);
+    margin-top:0px;
+    font-weight: bold;
+    margin-block: 0.5em;
+}
+.album ul {
+    text-align: center;
+    width:100%;
+    background-color: black;
+    padding-block: 20px;
+    padding-inline: 0;
+}
+.album li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.album .spotify {
+    color: white;
+    font-size:17px;
+    margin-bottom: 40px;
+}
+.album a {
+    color: yellow;
+}
+
+.album nav a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: hsl(190, 50%, 80%);
+    background: hsl(190, 50%, 45%);
+    padding: 0.3em 0.6em;
+}
